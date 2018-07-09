@@ -1,7 +1,7 @@
 {
-  "name": "electron-quick-start",
+  "name": "diskr",
   "version": "1.0.0",
-  "description": "A minimal Electron application",
+  "description": "A minimal Electron application that displays disk info",
   "main": "main.js",
   "scripts": {
     "start": "electron ."
@@ -18,5 +18,12 @@
   "license": "CC0-1.0",
   "devDependencies": {
     "electron": "^2.0.0"
+  },
+  "dependencies": {
+    "bootstrap": "^4.0.0-alpha.6",
+    "datatables.net": "^1.10.19",
+    "datatables.net-bs4": "^1.10.19",
+    "jquery": "^3.3.1",
+    "node-powershell": "^3.3.1"
   }
 }
